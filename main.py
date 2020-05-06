@@ -8,12 +8,13 @@ e = "test"
 print(b, c, d, e)
 print(f"This {c} a {e}")
 def tester():
-  return "This is a test"
+    return "This is a test"
 f = tester()
 print(f)
 g = ["This", "is", "a", "test"]
 h = ""
 i = 0
 for i in g:
-  h = h + i + " "
+    h = h + i + " "
 print(h)
+print(f"{b} is {d} test")
